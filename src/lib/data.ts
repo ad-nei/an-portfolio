@@ -34,23 +34,23 @@ export const projects: Project[] = [
     id: "focus",
     title: "FocuS",
     subtitle: {
-      ja: "仙台の飲食店紹介Webメディア",
+      ja: "仙台の飲食店を紹介するWEBメディア",
       en: "Local dining media in Sendai",
     },
     period: "2022 —",
     status: "live",
     image: "", // TODO: /images/projects/focus.jpg を配置してこの値に設定
     challenge: {
-      ja: "仙台エリアには魅力的な飲食店が数多くあるが、情報が分散していて、地元の生活者にも十分に届いていなかった。",
-      en: "Sendai has many appealing restaurants, but information was scattered and rarely reached local residents effectively.",
+      ja: "仙台エリアには魅力的な飲食店が数多くあるが、流通している情報の精度に課題があった。",
+      en: "Sendai has many appealing restaurants, but the information circulating about them lacked accuracy.",
     },
     approach: {
-      ja: "ユーザー目線で記事構成と導線を設計し、検索行動や閲覧データをもとに継続的に改善。地域の文脈を踏まえた情報設計を行った。",
-      en: "Designed article structure and navigation from the reader's perspective, iterating based on search behavior and analytics with information architecture tailored to local context.",
+      ja: "ユーザー目線で記事構成と導線を設計し、検索行動や閲覧データをもとに継続的に改善。",
+      en: "Designed article structure and navigation from the reader's perspective, iterating based on search behavior and analytics.",
     },
     result: {
-      ja: "年間5万〜6万PV規模まで成長し、検索上位を獲得。地域広告会社からの提案にもつながった。",
-      en: "Grew to 50,000–60,000 page views per year, achieved top search rankings, and led to proposals from local advertising companies.",
+      ja: "年間5万〜6万PV規模まで成長し、検索上位を獲得。地域の広告代理店から協働の提案を受けるほどに認知を獲得。",
+      en: "Grew to 50,000–60,000 page views per year, achieved top search rankings, and gained enough recognition that a local advertising agency proposed a collaboration.",
     },
     tags: ["情報設計", "コンテンツ改善", "地域メディア", "SEO"],
     link: {
@@ -62,23 +62,23 @@ export const projects: Project[] = [
     id: "meal-folio",
     title: "Meal Folio",
     subtitle: {
-      ja: "飲食店探しWebアプリ",
-      en: "Restaurant discovery web app",
+      ja: "飲食店と「出会える」WEBアプリ",
+      en: "A web app for restaurant encounters",
     },
     period: "2025 — 開発中",
     status: "in-progress",
     image: "", // TODO: /images/projects/meal-folio.jpg を配置してこの値に設定
     challenge: {
-      ja: "飲食店探しは選択肢が多い一方で、探す・整理する・比較するという体験そのものは十分に磨かれていない。",
-      en: "While restaurant choices are abundant, the experience of searching, organizing, and comparing them remains underdesigned.",
+      ja: "資本力のある飲食店が広告や宣伝で優位に立てるサービスが乱立し、ユーザーが新しい飲食店と「出会う」体験が阻害されている。",
+      en: "A proliferation of services lets well-funded restaurants dominate through advertising, undermining users' genuine \"encounters\" with new restaurants.",
     },
     approach: {
       ja: "AWS上でのAPI設計・認証基盤の実装を含め、個人開発として一から構築。情報整理のしやすさとユーザー体験を軸に設計している。",
       en: "Building the entire system individually — including API design and authentication on AWS — with a focus on information organization and user experience.",
     },
     result: {
-      ja: "現在開発中。コア機能の実装を進めながら、実際に使える形へ近づけている。",
-      en: "Currently in active development, progressively shaping core features into a usable product.",
+      ja: "現在開発中。5月にユーザーテストを実施し、コア機能の実装を進めながら、実際に使える形へ近づけている。",
+      en: "Currently in active development; user testing was conducted in May, progressively shaping core features into a usable product.",
     },
     tags: ["AWS", "API設計", "認証基盤", "サービス設計"],
   },
@@ -97,8 +97,8 @@ export const projects: Project[] = [
       en: "Growing awareness for the web media required more than online content — it needed real, hands-on experiences for participants.",
     },
     approach: {
-      ja: "謎解き脱出ゲームなど参加型イベントを企画。企画意図の設計から導線・没入感の設計、広報・制作までを一貫して担当した。",
-      en: "Planned participatory events such as an escape-room-style puzzle game, handling everything from concept and flow design to promotion and production.",
+      ja: "参加型イベントを企画し、企画意図の設計から導線・没入感の設計、広報・制作までを一貫して担当した。",
+      en: "Planned participatory events, handling everything from concept and flow design to promotion and production.",
     },
     result: {
       ja: "参加者の満足度の高い体験を実現し、メディア運営とオフライン施策を接続する事例となった。",
@@ -137,22 +137,22 @@ export const visualWorkCategories: VisualWorkCategory[] = [
     },
     items: [
       {
-        id: "photo-event-1",
-        title: { ja: "イベントの様子", en: "Event snapshot" },
+        id: "photo-mono",
+        title: { ja: "モノ", en: "Objects" },
         kind: "photo",
-        src: "", // TODO: /images/visual-works/photo-event-1.jpg を配置してこの値に設定
+        src: "", // TODO: /images/visual-works/photo-mono.jpg を配置してこの値に設定
       },
       {
-        id: "photo-event-2",
-        title: { ja: "イベントの様子", en: "Event snapshot" },
+        id: "photo-hito",
+        title: { ja: "ヒト", en: "People" },
         kind: "photo",
-        src: "", // TODO: /images/visual-works/photo-event-2.jpg を配置してこの値に設定
+        src: "", // TODO: /images/visual-works/photo-hito.jpg を配置してこの値に設定
       },
       {
-        id: "photo-menu-1",
-        title: { ja: "飲食店メニュー撮影", en: "Restaurant menu photography" },
+        id: "photo-koto",
+        title: { ja: "コト", en: "Moments" },
         kind: "photo",
-        src: "", // TODO: /images/visual-works/photo-menu-1.jpg を配置してこの値に設定
+        src: "", // TODO: /images/visual-works/photo-koto.jpg を配置してこの値に設定
       },
     ],
   },
@@ -281,17 +281,22 @@ export const about = {
   summaryEn:
     "Interested in observing how people behave and feel, then translating that into language, systems, and technology. Nearly five years of floor and kitchen experience across three open-kitchen izakaya built a grounded sense of hospitality and operational flow — a perspective that led to launching FocuS, a local dining media in Sendai, planning participatory events, and now building Meal Folio, a restaurant discovery app. Also engaged in photography, video editing, and calendar design. Graduate coursework in engineering added a habit of structured thinking, though research itself stays in the background.",
   highlights: [
-    { ja: "飲食店実務 約5年弱", en: "~5 years in restaurant operations" },
-    { ja: "オープンキッチン3店舗", en: "3 open-kitchen izakaya" },
-    { ja: "工学研究科 在籍", en: "Graduate School of Engineering" },
+    {
+      ja: "飲食店実務（5年・3店舗・オープンキッチン）",
+      en: "Restaurant experience (5 yrs · 3 shops · open kitchen)",
+    },
+    {
+      ja: "工学研究科 9月修了予定",
+      en: "Graduate School of Engineering — expected graduation in September",
+    },
   ],
 };
 
 export const siteConfig = {
   name: "an",
   email: "adele.work.tohoku@gmail.com",
-  titleJa: "体験設計と技術実装をつなぐエンジニア",
-  titleEn: "Engineer bridging user experience and digital systems",
+  titleJa: "体験を設計する駆け出しエンジニア",
+  titleEn: "An early-career engineer designing experiences",
   catchJa: "人の体験を観察し、仕組みとして設計し、技術で形にする。",
   catchEn:
     "Designing experiences, systems, and communication across digital and physical contexts.",
