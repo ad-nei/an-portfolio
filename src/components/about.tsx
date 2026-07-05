@@ -14,9 +14,16 @@ export function About() {
               {paragraph}
             </p>
           ))}
-          <p className="mt-2 font-en text-sm leading-relaxed text-muted-foreground">
-            {about.summaryEn}
-          </p>
+          {about.summaryEn.map((paragraph, i) => (
+            <p
+              key={i}
+              className={`font-en text-sm leading-relaxed text-muted-foreground ${
+                i === 0 ? "mt-2" : ""
+              }`}
+            >
+              {paragraph}
+            </p>
+          ))}
         </FadeIn>
 
         <FadeIn

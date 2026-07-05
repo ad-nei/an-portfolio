@@ -63,14 +63,14 @@ export const projects: Project[] = [
     title: "Meal Folio",
     subtitle: {
       ja: "飲食店と「出会える」WEBアプリ",
-      en: "A web app for restaurant encounters",
+      en: "A web app for discovering restaurants.",
     },
     period: "2025 — 開発中",
     status: "in-progress",
     image: "", // TODO: /images/projects/meal-folio.jpg を配置してこの値に設定
     challenge: {
       ja: "資本力のある飲食店が広告や宣伝で優位に立てるサービスが乱立し、ユーザーが新しい飲食店と「出会う」体験が阻害されている。",
-      en: "A proliferation of services lets well-funded restaurants dominate through advertising, undermining users' genuine \"encounters\" with new restaurants.",
+      en: "A proliferation of services lets well-funded restaurants dominate through advertising, and it has become harder for users to discover new restaurants naturally.",
     },
     approach: {
       ja: "AWS上でのAPI設計・認証基盤の実装を含め、個人開発として一から構築。情報整理のしやすさとユーザー体験を軸に設計している。",
@@ -87,7 +87,7 @@ export const projects: Project[] = [
     title: "Event Design",
     subtitle: {
       ja: "体験を設計するイベント企画",
-      en: "Event planning through experience design",
+      en: "Experience-driven event planning.",
     },
     period: "2023, 2025",
     status: "completed",
@@ -102,7 +102,7 @@ export const projects: Project[] = [
     },
     result: {
       ja: "参加者の満足度の高い体験を実現し、メディア運営とオフライン施策を接続する事例となった。",
-      en: "Delivered a highly satisfying participant experience and connected offline initiatives with media operations.",
+      en: "Created an engaging experience for participants and connected offline initiatives with media operations.",
     },
     tags: ["体験設計", "企画構成", "広報"],
   },
@@ -133,7 +133,7 @@ export const visualWorkCategories: VisualWorkCategory[] = [
     title: { ja: "写真", en: "Photography" },
     description: {
       ja: "モノ・ヒト・コトを対象に撮影。飲食店のメニュー撮影実績あり。",
-      en: "Photography spanning objects, people, and moments — including menu photography for restaurants.",
+      en: "Photography across objects, people, and events.",
     },
     items: [
       {
@@ -290,8 +290,12 @@ export const about = {
     "現在は、飲食店探しの新しい体験を実現するべくWEBアプリ「Meal Folio」を個人開発しており、AWSでのAPI設計や認証基盤の実装を通じて技術力を深めています。写真・動画といった表現活動にも取り組んでいます。",
     "大学院では、装置開発にも取り組みましたが、現在は研究そのものよりも、そこで培った力を実務に活かすことを目指しています。",
   ],
-  summaryEn:
-    "Interested in how to create value within human experience. My studies in electronic engineering were grounded by roughly five years of floor and kitchen work across three open-kitchen izakaya, which built a habit of thinking about service and operations from the customer's reactions. Motivated by challenges in local information distribution, I launched FocuS, a web media introducing restaurants in Sendai, in 2022 — handling everything from service design to planning and analytics — and in 2023 planned participatory events to grow its reach. I'm now individually building Meal Folio, a web app aiming to realize a new restaurant-discovery experience, deepening my technical skills through API design and authentication on AWS. I also continue creative work in photography and video. Graduate school included device development, but today I aim to apply the skills it taught me to practical work rather than focus on research itself.",
+  summaryEn: [
+    "I am interested in how thoughtful design can create value in people's experiences. While studying electronic engineering, I developed a strong sense of real-world service through nearly five years of part-time work at three izakaya restaurants, where I supported both kitchen operations and customer service in open-kitchen settings. Those experiences taught me to think about service and operations from the perspective of people right in front of me.",
+    "In 2022, I launched FocuS, a web media platform introducing restaurants in Sendai, driven by a desire to improve the way local information is shared. I was involved in everything from service design and content planning to analytics, and in 2023 I also planned participatory events to expand its reach.",
+    "I am currently building Meal Folio on my own, a web app designed to create a better restaurant discovery experience, while deepening my technical skills through API design and authentication on AWS. I also work in photography and video as forms of visual communication.",
+    "In graduate school, I also worked on device development. Today, I hope to apply the skills I developed there to real-world work rather than research itself.",
+  ],
   highlights: [
     {
       ja: "飲食店実務（5年・3店舗・オープンキッチン）",
@@ -308,7 +312,7 @@ export const siteConfig = {
   name: "an",
   email: "adele.work.tohoku@gmail.com",
   titleJa: "体験を設計する駆け出しエンジニア",
-  titleEn: "An early-career engineer designing experiences",
+  titleEn: "An emerging engineer focused on experience design.",
   catchJa: "人の体験を観察し、仕組みを設計して、実装する",
-  catchEn: "From real human experiences to system design to implementation.",
+  catchEn: "Observing human experiences, designing systems, and bringing them into implementation.",
 };
