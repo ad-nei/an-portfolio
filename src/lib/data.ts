@@ -39,7 +39,7 @@ export const projects: Project[] = [
     },
     period: "2022 — 2025",
     status: "live",
-    image: "", // TODO: /images/projects/focus.jpg を配置してこの値に設定
+    image: "/images/projects/focus.png",
     challenge: {
       ja: "仙台エリアには魅力的な飲食店が数多くあるが、流通している情報の精度に課題があった。",
       en: "Sendai has many appealing restaurants, but the information circulating about them lacked accuracy.",
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     },
     period: "2025 — 開発中",
     status: "in-progress",
-    image: "", // TODO: /images/projects/meal-folio.jpg を配置してこの値に設定
+    image: "/images/projects/meal-folio.png",
     challenge: {
       ja: "資本力のある飲食店が広告や宣伝で優位に立てるサービスが乱立し、ユーザーが新しい飲食店と「出会う」体験が阻害されている。",
       en: "A proliferation of services lets well-funded restaurants dominate through advertising, and it has become harder for users to discover new restaurants naturally.",
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     },
     period: "2023, 2025",
     status: "completed",
-    image: "", // TODO: /images/projects/event-design.jpg を配置してこの値に設定
+    image: "/images/projects/event-design.jpg",
     challenge: {
       ja: "WEBメディアの認知を広げるには、オンラインの発信だけでなく、実際に体験してもらう場が必要だった。",
       en: "Growing awareness for the web media required more than online content — it needed real, hands-on experiences for participants.",
@@ -140,19 +140,19 @@ export const visualWorkCategories: VisualWorkCategory[] = [
         id: "photo-mono",
         title: { ja: "モノ", en: "Objects" },
         kind: "photo",
-        src: "", // TODO: /images/visual-works/photo-mono.jpg を配置してこの値に設定
+        src: "/images/visual-works/photo-mono.jpg",
       },
       {
         id: "photo-hito",
         title: { ja: "ヒト", en: "People" },
         kind: "photo",
-        src: "", // TODO: /images/visual-works/photo-hito.jpg を配置してこの値に設定
+        src: "/images/visual-works/photo-hito.jpg",
       },
       {
         id: "photo-koto",
         title: { ja: "コト", en: "Moments" },
         kind: "photo",
-        src: "", // TODO: /images/visual-works/photo-koto.jpg を配置してこの値に設定
+        src: "/images/visual-works/photo-koto.jpg",
       },
     ],
   },
@@ -190,21 +190,21 @@ export const visualWorkCategories: VisualWorkCategory[] = [
     id: "calendar",
     title: { ja: "カレンダー制作", en: "Calendar Design" },
     description: {
-      ja: "2024年・2025年にオリジナル卓上カレンダーを制作・販売。",
-      en: "Designed and sold original desk calendars in 2024 and 2025.",
+      ja: "2023年・2024年にオリジナル卓上カレンダーを制作・販売。",
+      en: "Designed and sold original desk calendars in 2023 and 2024.",
     },
     items: [
+      {
+        id: "calendar-2023",
+        title: { ja: "2023年版 卓上カレンダー", en: "2023 desk calendar" },
+        kind: "design",
+        src: "/images/visual-works/calendar-2023.jpg",
+      },
       {
         id: "calendar-2024",
         title: { ja: "2024年版 卓上カレンダー", en: "2024 desk calendar" },
         kind: "design",
-        src: "", // TODO: /images/visual-works/calendar-2024.jpg を配置してこの値に設定
-      },
-      {
-        id: "calendar-2025",
-        title: { ja: "2025年版 卓上カレンダー", en: "2025 desk calendar" },
-        kind: "design",
-        src: "", // TODO: /images/visual-works/calendar-2025.jpg を配置してこの値に設定
+        src: "/images/visual-works/calendar-2024.jpg",
       },
     ],
   },

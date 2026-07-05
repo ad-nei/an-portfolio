@@ -5,14 +5,14 @@
 以下のフォルダに、決めたファイル名で画像を置くだけでOKです。
 
 ```
-public/images/projects/focus.jpg
-public/images/projects/meal-folio.jpg       # アイコン/スクリーンショット
+public/images/projects/focus.png
+public/images/projects/meal-folio.png       # アイコン/スクリーンショット
 public/images/projects/event-design.jpg
-public/images/visual-works/photo-event-1.jpg
-public/images/visual-works/photo-event-2.jpg
-public/images/visual-works/photo-menu-1.jpg
+public/images/visual-works/photo-mono.jpg
+public/images/visual-works/photo-hito.jpg
+public/images/visual-works/photo-koto.jpg
+public/images/visual-works/calendar-2023.jpg
 public/images/visual-works/calendar-2024.jpg
-public/images/visual-works/calendar-2025.jpg
 ```
 
 ファイル名・拡張子は自由に変えて構いません(その場合は下記2の src も合わせて変更)。
