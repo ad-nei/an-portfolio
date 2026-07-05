@@ -272,20 +272,6 @@ export const timeline: TimelineItem[] = [
   },
 ];
 
-export type SocialLink = {
-  id: string;
-  label: string;
-  /** 空文字の場合は「準備中」として非活性表示 */
-  href: string;
-};
-
-export const socialLinks: SocialLink[] = [
-  { id: "github", label: "GitHub", href: "" }, // TODO: GitHubリンクを追加
-  { id: "linkedin", label: "LinkedIn", href: "" }, // TODO: LinkedInリンクを追加
-  { id: "x", label: "X (Twitter)", href: "" }, // TODO: Xリンクを追加
-  { id: "instagram", label: "Instagram", href: "" }, // TODO: Instagramリンクを追加
-];
-
 export const about = {
   paragraphsJa: [
     "人の体験において、どのように価値を提供できるかに関心があります。",

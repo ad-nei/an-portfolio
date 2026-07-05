@@ -1,4 +1,4 @@
-import { siteConfig, socialLinks } from "@/lib/data";
+import { siteConfig } from "@/lib/data";
 import { FadeIn } from "./ui/fade-in";
 import { Heading } from "./ui/heading";
 import { Section } from "./ui/section";
@@ -18,30 +18,6 @@ export function Contact() {
           >
             {siteConfig.email}
           </a>
-        </div>
-
-        <div className="flex flex-wrap gap-3">
-          {socialLinks.map((link) =>
-            link.href ? (
-              <a
-                key={link.id}
-                href={link.href}
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-full border border-border px-4 py-2 font-en text-xs text-foreground transition-colors hover:border-accent hover:text-accent"
-              >
-                {link.label}
-              </a>
-            ) : (
-              <span
-                key={link.id}
-                aria-disabled="true"
-                className="cursor-not-allowed rounded-full border border-dashed border-border px-4 py-2 font-en text-xs text-muted-foreground/60"
-              >
-                {link.label}
-              </span>
-            )
-          )}
         </div>
       </FadeIn>
     </Section>
