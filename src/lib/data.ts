@@ -117,6 +117,8 @@ export type VisualWorkItem = {
   src?: string;
   /** kind: "video" の場合、埋め込み用URL (YouTube/Vimeoなど) */
   videoUrl?: string;
+  /** kind: "video" の場合の埋め込み比率。未設定なら横長(16:9) */
+  videoAspect?: "horizontal" | "vertical";
   description?: Bilingual;
 };
 
@@ -178,7 +180,9 @@ export const visualWorkCategories: VisualWorkCategory[] = [
         id: "video-event-pv",
         title: { ja: "イベントPV", en: "Event promotional video" },
         kind: "video",
-        videoUrl: "", // TODO: 埋め込みURL (YouTube/Vimeo) を追加
+        videoUrl:
+          "https://player.vimeo.com/video/1207134694?badge=0&autopause=0&player_id=0&app_id=58479",
+        videoAspect: "vertical",
         description: {
           ja: "イベント告知のために制作したプロモーション動画。",
           en: "A promotional video produced to announce an event.",

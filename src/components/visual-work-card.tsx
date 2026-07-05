@@ -6,7 +6,11 @@ export function VisualWorkCard({ item }: { item: VisualWorkItem }) {
     <div className="flex flex-col gap-2.5">
       {item.kind === "video" ? (
         item.videoUrl ? (
-          <div className="relative aspect-video overflow-hidden rounded-md bg-surface">
+          <div
+            className={`relative mx-auto w-full overflow-hidden rounded-md bg-surface ${
+              item.videoAspect === "vertical" ? "aspect-[9/16] max-w-[280px]" : "aspect-video"
+            }`}
+          >
             <iframe
               src={item.videoUrl}
               title={item.title.ja}
@@ -21,7 +25,7 @@ export function VisualWorkCard({ item }: { item: VisualWorkItem }) {
         <MediaPlaceholder
           src={item.src}
           alt={item.title.ja}
-          aspect={item.kind === "design" ? "portrait" : "photo"}
+          aspect="photo"
           icon={item.kind}
         />
       )}

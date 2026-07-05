@@ -19,7 +19,7 @@ public/images/visual-works/calendar-2024.jpg
 
 推奨サイズ:
 - プロジェクトカード / 写真: 横1200px程度、JPG/WebP
-- カレンダー: 縦長で 1000×1300px程度
+- カレンダー: 横長で 1200×900px程度
 - Meal Folio アイコン: 正方形 512×512px程度
 
 ## 2. データファイルに反映する
