@@ -37,7 +37,7 @@ export const projects: Project[] = [
       ja: "仙台の飲食店を紹介するWEBメディア",
       en: "Local dining media in Sendai",
     },
-    period: "2022 —",
+    period: "2022 — 2025",
     status: "live",
     image: "", // TODO: /images/projects/focus.jpg を配置してこの値に設定
     challenge: {
@@ -52,7 +52,7 @@ export const projects: Project[] = [
       ja: "年間5万〜6万PV規模まで成長し、検索上位を獲得。地域の広告代理店から協働の提案を受けるほどに認知を獲得。",
       en: "Grew to 50,000–60,000 page views per year, achieved top search rankings, and gained enough recognition that a local advertising agency proposed a collaboration.",
     },
-    tags: ["情報設計", "コンテンツ改善", "地域メディア", "SEO"],
+    tags: ["地域メディア", "SEO", "マネジメント"],
     link: {
       href: "https://focus-sendai.com/",
       label: { ja: "サイトを見る", en: "Visit site" },
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     status: "completed",
     image: "", // TODO: /images/projects/event-design.jpg を配置してこの値に設定
     challenge: {
-      ja: "Webメディアの認知を広げるには、オンラインの発信だけでなく、実際に体験してもらう場が必要だった。",
+      ja: "WEBメディアの認知を広げるには、オンラインの発信だけでなく、実際に体験してもらう場が必要だった。",
       en: "Growing awareness for the web media required more than online content — it needed real, hands-on experiences for participants.",
     },
     approach: {
@@ -104,7 +104,7 @@ export const projects: Project[] = [
       ja: "参加者の満足度の高い体験を実現し、メディア運営とオフライン施策を接続する事例となった。",
       en: "Delivered a highly satisfying participant experience and connected offline initiatives with media operations.",
     },
-    tags: ["体験設計", "企画構成", "ストーリーテリング", "広報"],
+    tags: ["体験設計", "企画構成", "広報"],
   },
 ];
 
@@ -227,13 +227,13 @@ export const timeline: TimelineItem[] = [
   {
     date: "2022年 春",
     dateEn: "Spring 2022",
-    title: "Webメディア「FocuS」立ち上げ",
+    title: "WEBメディア「FocuS」立ち上げ",
     titleEn: 'Launched the web media "FocuS"',
   },
   {
     date: "2023年 秋",
     dateEn: "Autumn 2023",
-    title: "Webメディア関連イベントを企画",
+    title: "WEBメディア関連イベントを企画",
     titleEn: "Planned an event for the web media",
   },
   {
@@ -254,6 +254,18 @@ export const timeline: TimelineItem[] = [
     title: "Meal Folio 開発始動",
     titleEn: "Started development of Meal Folio",
   },
+  {
+    date: "2026年 9月",
+    dateEn: "September 2026",
+    title: "工学研究科修了予定",
+    titleEn: "Expected to complete the Graduate School of Engineering",
+  },
+  {
+    date: "2027年 4月",
+    dateEn: "April 2027",
+    title: "新卒エンジニアとして入社予定",
+    titleEn: "Expected to join a company as a new graduate engineer",
+  },
 ];
 
 export type SocialLink = {
@@ -272,14 +284,14 @@ export const socialLinks: SocialLink[] = [
 
 export const about = {
   paragraphsJa: [
-    "人の行動や感情を観察し、それを言葉や仕組み、技術に落とし込むことに関心があります。",
-    "大学では工学を学びながら、飲食店でのアルバイトを通じて現場感覚を養ってきました。3つの居酒屋で、いずれもオープンキッチンという環境の中で調理補助と接客を約5年弱にわたって経験し、目の前のお客さんの反応から店の仕組みや導線を考える習慣が身につきました。",
-    "その視点を活かし、2022年には仙台の飲食店を紹介するWebメディア「FocuS」を立ち上げ、記事制作から情報設計、集客までを担当。2023年にはメディアの認知を広げるための参加型イベントも企画しました。",
-    "現在は、飲食店探しの体験を良くするWebアプリ「Meal Folio」を個人開発しており、AWSでのAPI設計や認証基盤の実装を通じて技術力を深めています。写真・動画・カレンダー制作といった表現活動にも継続的に取り組んでいます。",
-    "大学院(工学研究科)では装置開発にも取り組みましたが、現在は研究そのものよりも、そこで培った構造化して考える力を実務に活かすことを大切にしています。",
+    "人の体験において、どのように価値を提供できるかに関心があります。",
+    "大学では電子工学を学びながら、飲食店でのアルバイトを通じて現場感覚を養ってきました。3つの居酒屋で、いずれもオープンキッチンという環境の中で調理補助と接客をおよそ5年にわたって経験し、目の前のお客さんの反応からサービスやオペレーションについて考える習慣が身につきました。",
+    "また、地域の情報流通への課題感から、2022年には仙台の飲食店を紹介するWEBメディア「FocuS」を立ち上げ、サービス設計から企画立案、アナリティクスまでを担当。2023年にはメディアの認知を広げるための参加型イベントも企画しました。",
+    "現在は、飲食店探しの新しい体験を実現するべくWEBアプリ「Meal Folio」を個人開発しており、AWSでのAPI設計や認証基盤の実装を通じて技術力を深めています。写真・動画といった表現活動にも取り組んでいます。",
+    "大学院では、装置開発にも取り組みましたが、現在は研究そのものよりも、そこで培った力を実務に活かすことを目指しています。",
   ],
   summaryEn:
-    "Interested in observing how people behave and feel, then translating that into language, systems, and technology. Nearly five years of floor and kitchen experience across three open-kitchen izakaya built a grounded sense of hospitality and operational flow — a perspective that led to launching FocuS, a local dining media in Sendai, planning participatory events, and now building Meal Folio, a restaurant discovery app. Also engaged in photography, video editing, and calendar design. Graduate coursework in engineering added a habit of structured thinking, though research itself stays in the background.",
+    "Interested in how to create value within human experience. My studies in electronic engineering were grounded by roughly five years of floor and kitchen work across three open-kitchen izakaya, which built a habit of thinking about service and operations from the customer's reactions. Motivated by challenges in local information distribution, I launched FocuS, a web media introducing restaurants in Sendai, in 2022 — handling everything from service design to planning and analytics — and in 2023 planned participatory events to grow its reach. I'm now individually building Meal Folio, a web app aiming to realize a new restaurant-discovery experience, deepening my technical skills through API design and authentication on AWS. I also continue creative work in photography and video. Graduate school included device development, but today I aim to apply the skills it taught me to practical work rather than focus on research itself.",
   highlights: [
     {
       ja: "飲食店実務（5年・3店舗・オープンキッチン）",
@@ -297,7 +309,6 @@ export const siteConfig = {
   email: "adele.work.tohoku@gmail.com",
   titleJa: "体験を設計する駆け出しエンジニア",
   titleEn: "An early-career engineer designing experiences",
-  catchJa: "人の体験を観察し、仕組みとして設計し、技術で形にする。",
-  catchEn:
-    "Designing experiences, systems, and communication across digital and physical contexts.",
+  catchJa: "人の体験を観察し、仕組みを設計して、実装する",
+  catchEn: "From real human experiences to system design to implementation.",
 };
