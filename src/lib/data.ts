@@ -194,21 +194,21 @@ export const visualWorkCategories: VisualWorkCategory[] = [
     id: "calendar",
     title: { ja: "カレンダー制作", en: "Calendar Design" },
     description: {
-      ja: "2023年・2024年にオリジナル卓上カレンダーを制作・販売。",
-      en: "Designed and sold original desk calendars in 2023 and 2024.",
+      ja: "2024年・2025年にオリジナル卓上カレンダーを制作・販売。",
+      en: "Designed and sold original desk calendars in 2024 and 2025.",
     },
     items: [
-      {
-        id: "calendar-2023",
-        title: { ja: "2023年版 卓上カレンダー", en: "2023 desk calendar" },
-        kind: "design",
-        src: "/images/visual-works/calendar-2023.jpg",
-      },
       {
         id: "calendar-2024",
         title: { ja: "2024年版 卓上カレンダー", en: "2024 desk calendar" },
         kind: "design",
         src: "/images/visual-works/calendar-2024.jpg",
+      },
+      {
+        id: "calendar-2025",
+        title: { ja: "2025年版 卓上カレンダー", en: "2025 desk calendar" },
+        kind: "design",
+        src: "/images/visual-works/calendar-2025.jpg",
       },
     ],
   },
