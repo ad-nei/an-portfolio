@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { ThemeToggle } from "./theme-toggle";
@@ -19,7 +20,14 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/85 backdrop-blur supports-[backdrop-filter]:bg-background/70">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4 sm:px-8">
-        <Link href="#top" className="text-lg font-medium tracking-tight text-foreground">
+        <Link href="#top" className="flex items-center gap-2 text-lg font-medium tracking-tight text-foreground">
+          <Image
+            src="/images/an-icon.jpg"
+            alt={siteConfig.name}
+            width={28}
+            height={28}
+            className="rounded-full"
+          />
           {siteConfig.name}
         </Link>
 

@@ -22,6 +22,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: `${siteConfig.name} | Portfolio`,
   description: `${siteConfig.titleJa} — ${siteConfig.catchJa}`,
+  icons: {
+    icon: "/images/an-icon.jpg",
+  },
 };
 
 export default function RootLayout({

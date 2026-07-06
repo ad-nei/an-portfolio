@@ -1,12 +1,13 @@
 import Image from "next/image";
 
-type Aspect = "video" | "square" | "portrait" | "photo";
+type Aspect = "video" | "square" | "portrait" | "photo" | "calendar";
 
 const aspectClass: Record<Aspect, string> = {
   video: "aspect-video",
   square: "aspect-square",
   portrait: "aspect-[3/4]",
   photo: "aspect-[4/3]",
+  calendar: "aspect-[3/2]",
 };
 
 type IconKind = "photo" | "video" | "design";

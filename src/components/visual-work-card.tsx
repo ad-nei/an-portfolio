@@ -25,7 +25,7 @@ export function VisualWorkCard({ item }: { item: VisualWorkItem }) {
         <MediaPlaceholder
           src={item.src}
           alt={item.title.ja}
-          aspect="photo"
+          aspect={item.kind === "design" ? "calendar" : "photo"}
           icon={item.kind}
         />
       )}
