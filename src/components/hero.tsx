@@ -37,6 +37,14 @@ export function Hero() {
 
         <FadeIn delay={280}>
           <div className="flex max-w-xl flex-col gap-2">
+            <div className="flex items-baseline gap-2">
+              <span className="text-xs uppercase tracking-wide text-foreground/70">
+                できること
+              </span>
+              <span className="font-en text-[11px] uppercase tracking-wide text-muted-foreground">
+                What I Do
+              </span>
+            </div>
             <ul className="flex flex-col gap-1.5">
               {siteConfig.heroHighlightsJa.map((item) => (
                 <li key={item} className="flex gap-2 text-sm text-foreground/80 sm:text-base">
