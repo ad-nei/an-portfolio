@@ -35,7 +35,25 @@ export function Hero() {
           </div>
         </FadeIn>
 
-        <FadeIn delay={320}>
+        <FadeIn delay={280}>
+          <div className="flex max-w-xl flex-col gap-2">
+            <ul className="flex flex-col gap-1.5">
+              {siteConfig.heroHighlightsJa.map((item) => (
+                <li key={item} className="flex gap-2 text-sm text-foreground/80 sm:text-base">
+                  <span aria-hidden="true" className="text-accent">
+                    ・
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <p className="font-en text-xs text-muted-foreground sm:text-sm">
+              {siteConfig.heroHighlightsEn}
+            </p>
+          </div>
+        </FadeIn>
+
+        <FadeIn delay={360}>
           <div className="flex flex-wrap gap-4 pt-2">
             <Link
               href="#projects"

@@ -305,4 +305,11 @@ export const siteConfig = {
   titleEn: "An emerging engineer focused on experience design.",
   catchJa: "人の体験を観察し、仕組みを設計して、実装する",
   catchEn: "Observing human experiences, designing systems, and bringing them into implementation.",
+  heroHighlightsJa: [
+    "ユーザー視点を重視したメディアの企画・設計・実装",
+    "参加者の体験を起点にしたイベント設計・運営",
+    "写真・動画編集によるビジュアル・広報制作",
+  ],
+  heroHighlightsEn:
+    "Planning, designing, and implementing user-centered media; designing and running participant-centered events; and creating visual and promotional content through photography and video editing.",
 };
