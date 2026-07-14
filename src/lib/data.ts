@@ -307,7 +307,7 @@ export const siteConfig = {
   catchEn: "Observing human experiences, designing systems, and bringing them into implementation.",
   heroHighlightsJa: [
     "ユーザー視点を重視したメディアの企画・設計・実装",
-    "参加者の体験を起点にしたイベント設計・運営",
+    "参加者の体験を起点にしたイベントの設計・運営",
     "写真・動画編集によるビジュアル・広報制作",
   ],
   heroHighlightsEn:
