@@ -275,21 +275,21 @@ export const timeline: TimelineItem[] = [
 export const about = {
   paragraphsJa: [
     "人の体験において、どのように価値を提供できるかに関心があります。",
-    "大学では電子工学を学びながら、飲食店でのアルバイトを通じて現場感覚を養ってきました。3つの居酒屋で、いずれもオープンキッチンという環境の中で調理補助と接客をおよそ5年にわたって経験し、目の前のお客さんの反応からサービスやオペレーションについて考える習慣が身につきました。",
+    "大学では電子工学を学びながら、飲食店でのアルバイトを通じて現場感覚を養ってきました。3つの居酒屋で、いずれもオープンキッチンという環境の中で調理補助と接客をおよそ4年にわたって経験し、目の前のお客さんの反応からサービスやオペレーションについて考える習慣が身につきました。",
     "また、地域の情報流通への課題感から、2022年には仙台の飲食店を紹介するWEBメディア「FocuS」を立ち上げ、サービス設計から企画立案、アナリティクスまでを担当。2023年にはメディアの認知を広げるための参加型イベントも企画しました。",
     "現在は、飲食店探しの新しい体験を実現するべくWEBアプリ「Meal Folio」を個人開発しており、AWSでのAPI設計や認証基盤の実装を通じて技術力を深めています。写真・動画といった表現活動にも取り組んでいます。",
     "大学院では、装置開発にも取り組みましたが、現在は研究そのものよりも、そこで培った力を実務に活かすことを目指しています。",
   ],
   summaryEn: [
-    "I am interested in how thoughtful design can create value in people's experiences. While studying electronic engineering, I developed a strong sense of real-world service through nearly five years of part-time work at three izakaya restaurants, where I supported both kitchen operations and customer service in open-kitchen settings. Those experiences taught me to think about service and operations from the perspective of people right in front of me.",
+    "I am interested in how thoughtful design can create value in people's experiences. While studying electronic engineering, I developed a strong sense of real-world service through nearly four years of part-time work at three izakaya restaurants, where I supported both kitchen operations and customer service in open-kitchen settings. Those experiences taught me to think about service and operations from the perspective of people right in front of me.",
     "In 2022, I launched FocuS, a web media platform introducing restaurants in Sendai, driven by a desire to improve the way local information is shared. I was involved in everything from service design and content planning to analytics, and in 2023 I also planned participatory events to expand its reach.",
     "I am currently building Meal Folio on my own, a web app designed to create a better restaurant discovery experience, while deepening my technical skills through API design and authentication on AWS. I also work in photography and video as forms of visual communication.",
     "In graduate school, I also worked on device development. Today, I hope to apply the skills I developed there to real-world work rather than research itself.",
   ],
   highlights: [
     {
-      ja: "飲食店実務（5年・3店舗・オープンキッチン）",
-      en: "Restaurant experience (5 yrs · 3 shops · open kitchen)",
+      ja: "飲食店実務（4年・3店舗・オープンキッチン）",
+      en: "Restaurant experience (4 yrs · 3 shops · open kitchen)",
     },
     {
       ja: "工学研究科 9月修了予定",
